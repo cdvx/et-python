@@ -4,9 +4,9 @@
 # Author : cdvx
 
 # Local libraries
-from db import MONGOConnection, PSQLConnection
+from .db import MONGOConnection, PSQLConnection
 from config import Config
-from etl_helpers import *
+from .etl_helpers import *
 
 def main():
     """main method starts a pipeline, extracts data,
@@ -72,6 +72,3 @@ def main():
     if Config.PRINT_INFO:
         print('PSQL connection closed successfully')
         print('Ending data pipeline')
-
-if __name__ == "__main__":
-    main()
