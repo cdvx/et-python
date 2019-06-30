@@ -1,15 +1,19 @@
 #!/usr/bin/python3
 """Config for data pipeline"""
 
-# Created by Balraj 06/01/2017
 
-# MySQL config constants
-MYSQL_USERNAME = "balraj"
-MYSQL_PASSWORD = "password"
-MYSQL_HOST = "localhost"
-MYSQL_DB = "moviesDB"
+class Config:
+    PSQL_USER = "postgres"
+    PSQL_PASSWORD = ""
+    DB_HOST = "localhost"
+    PSQL_DB = "movielens"
+    PSQL_PORT = 5432
+    MONGO_PORT = 27017
+    MONGO_DB = "movielens"
 
-# MongoDB config constants
-MONGO_HOST = "localhost"
-MONGO_PORT = 27017
-MONGO_DB = "moviesDB"
+    # Pipeline constants
+    RESET_MONGO_COLLECTIONS_ON_UPDATE = True # Resets the collections if a collection already exists, if false, the data is appeneded to the collection
+    PRINT_INFO = True # Print options for debugging purposes
+    PRINT_RESULTS = True # Print option for debugging purposes
+
+
