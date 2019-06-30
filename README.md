@@ -27,7 +27,7 @@ pipenv install
 ## How to run
 In the terminal, type
 ```
-python3 pipeline.py
+python3 run.py
 ```
 
 ## Author
