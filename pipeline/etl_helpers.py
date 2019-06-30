@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 """Module with helper functions for ETL process"""
 # System libraries
 import copy, json

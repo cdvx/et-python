@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 """Module with database connection classess"""
 
 # System libraries

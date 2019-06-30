@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 """Config for data pipeline"""
 
 
