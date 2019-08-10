@@ -31,5 +31,4 @@ python3 run.py
 ```
 
 ## Author
-cdvx
-[CedricLusiba]
+CedricLusiba
